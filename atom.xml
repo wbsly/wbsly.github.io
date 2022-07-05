@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-07-03T16:27:03.503Z</updated>
+  <updated>2022-07-05T15:52:03.205Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数据结构</title>
+    <link href="http://example.com/2022/07/05/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    <id>http://example.com/2022/07/05/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</id>
+    <published>2022-07-05T15:45:35.000Z</published>
+    <updated>2022-07-05T15:52:03.205Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h1><h2 id="绪论"><a href="#绪论" class="headerlink" title="绪论"></a>绪论</h2><h3 id="数据结构在学什么？"><a href="#数据结构在学什么？" class="headerlink" title="数据结构在学什么？"></a>数据结构在学什么？</h3><ul><li>如何用程序代码把现实世界的问题信息化</li><li>如何用计算机高效地处理这些信息从而创造价值</li></ul><p><img src="D:\Blog\source\img\绪论.png" alt="绪论"></p><p><img src="D:\Blog\source\img\绪论(1).png"></p><hr><h3 id="数据结构基本概念"><a href="#数据结构基本概念" class="headerlink" title="数据结构基本概念"></a>数据结构基本概念</h3><h3 id=""><a href="#" class="headerlink" title=""></a><img src="D:\Blog\source\img\绪论(2).png"></h3><h4 id="数据"><a href="#数据" class="headerlink" title="数据"></a>数据</h4><p>​数据是<font color=red>信息的载体</font>，是描述客观事物属性的数、字符及所有能输入到计算机中并<font color=red>被计算机程序识别和处理（二进制0和1）</font>的符号的集合。数据是计算机程序加工的原料。</p><h4 id="数据元素、数据项"><a href="#数据元素、数据项" class="headerlink" title="数据元素、数据项"></a>数据元素、数据项</h4><p>​数据元素是数据的基本单位，通常作为一个整体进行考虑和处理。一个数据元素可由若干数据项组成，数据项是构成数据元素的不可分割的最小单位。</p><h4 id="数据对象"><a href="#数据对象" class="headerlink" title="数据对象"></a>数据对象</h4><p>​数据对象是具有相同性质的数据元素的集合，是数据的一个子集。</p><h4 id="数据结构-1"><a href="#数据结构-1" class="headerlink" title="数据结构"></a>数据结构</h4><p>​数据结构是相互之间存在一种或多种特定关系的数据元素的集合。</p><hr><h3 id="数据结构的三要素"><a href="#数据结构的三要素" class="headerlink" title="数据结构的三要素"></a>数据结构的三要素</h3><p><img src="/%E7%BB%AA%E8%AE%BA(3).png"></p><h4 id="逻辑结构"><a href="#逻辑结构" class="headerlink" title="逻辑结构"></a>逻辑结构</h4><p>​逻辑结构–数据元素之间的逻辑关系是什么？</p><p>集合结构：</p><p><img src="/%E9%80%BB%E8%BE%91%E7%BB%93%E6%9E%84(1).png"></p><p>线性结构：</p><p><img src="/%E9%80%BB%E8%BE%91%E7%BB%93%E6%9E%84(2).png"></p><p>树形结构：</p><p><img src="/%E9%80%BB%E8%BE%91%E7%BB%93%E6%9E%84(3).png"></p><p>图结构：</p><p><img src="/%E9%80%BB%E8%BE%91%E7%BB%93%E6%9E%84(4).png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;数据结构&quot;&gt;&lt;a href=&quot;#数据结构&quot; class=&quot;headerlink&quot; title=&quot;数据结构&quot;&gt;&lt;/a&gt;数据结构&lt;/h1&gt;&lt;h2 id=&quot;绪论&quot;&gt;&lt;a href=&quot;#绪论&quot; class=&quot;headerlink&quot; title=&quot;绪论&quot;&gt;&lt;/a&gt;绪论&lt;/h</summary>
+      
+    
+    
+    
+    
+    <category term="数据结构" scheme="http://example.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+  </entry>
   
   <entry>
     <title>Java语法</title>
@@ -39,22 +61,24 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://example.com/2022/06/26/hello-world/"/>
-    <id>http://example.com/2022/06/26/hello-world/</id>
-    <published>2022-06-26T11:16:59.973Z</published>
-    <updated>2022-06-14T10:39:30.000Z</updated>
+    <title></title>
+    <link href="http://example.com/2022/07/04/%E7%A7%9F%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%8A%E5%85%B6%E9%85%8D%E7%BD%AE/"/>
+    <id>http://example.com/2022/07/04/%E7%A7%9F%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%8A%E5%85%B6%E9%85%8D%E7%BD%AE/</id>
+    <published>2022-07-03T16:26:35.000Z</published>
+    <updated>2022-07-05T09:54:45.361Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="租云服务器及其配置"><a href="#租云服务器及其配置" class="headerlink" title="租云服务器及其配置"></a>租云服务器及其配置</h1><h2 id="租服务器"><a href="#租服务器" class="headerlink" title="租服务器"></a>租服务器</h2><p>腾讯云地址：<a href="https://cloud.tencent.com/">https://cloud.tencent.com/</a></p><hr><h2 id="远程登陆服务器"><a href="#远程登陆服务器" class="headerlink" title="远程登陆服务器"></a>远程登陆服务器</h2><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">ssh user@hostname</span><br></pre></td></tr></table></figure>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+    <summary type="html">&lt;h1 id=&quot;租云服务器及其配置&quot;&gt;&lt;a href=&quot;#租云服务器及其配置&quot; class=&quot;headerlink&quot; title=&quot;租云服务器及其配置&quot;&gt;&lt;/a&gt;租云服务器及其配置&lt;/h1&gt;&lt;h2 id=&quot;租服务器&quot;&gt;&lt;a href=&quot;#租服务器&quot; class=&quot;headerli</summary>
       
     
     
     
+    
+    <category term="杂乱无章的配置" scheme="http://example.com/tags/%E6%9D%82%E4%B9%B1%E6%97%A0%E7%AB%A0%E7%9A%84%E9%85%8D%E7%BD%AE/"/>
     
   </entry>
   
