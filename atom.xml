@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-07-05T15:52:03.205Z</updated>
+  <updated>2022-07-07T16:53:23.556Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,13 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>SpringBoot</title>
+    <link href="http://example.com/2022/07/08/SpringBoot/"/>
+    <id>http://example.com/2022/07/08/SpringBoot/</id>
+    <published>2022-07-07T16:52:45.000Z</published>
+    <updated>2022-07-07T16:53:23.556Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="配置git环境与项目创建"><a href="#配置git环境与项目创建" class="headerlink" title="配置git环境与项目创建"></a>配置git环境与项目创建</h2><h3 id="配置git环境"><a href="#配置git环境" class="headerlink" title="配置git环境"></a>配置git环境</h3><ol><li>安装<code>Git Bash</code></li><li>进入家目录生成秘钥：执行命令<code>ssh-keygen</code></li></ol><p>仓库初始化</p><p>​在已经创建好得项目文件夹下鼠标右键<code>Git Bash Here</code>：执行命令<code>git init</code>，</p><p>执行完毕后文件夹下会出现隐藏<code>.git</code>文件，一般项目都会有<code>README</code>文件，执行命令<code>vim README.md</code></p><p><img src="https://res.cloudinary.com/qlyfdljh/image/upload/v1657212352/SpringBoot/gitconfig_1.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;配置git环境与项目创建&quot;&gt;&lt;a href=&quot;#配置git环境与项目创建&quot; class=&quot;headerlink&quot; title=&quot;配置git环境与项目创建&quot;&gt;&lt;/a&gt;配置git环境与项目创建&lt;/h2&gt;&lt;h3 id=&quot;配置git环境&quot;&gt;&lt;a href=&quot;#配置git环</summary>
+      
+    
+    
+    
+    
+    <category term="Java" scheme="http://example.com/tags/Java/"/>
+    
+    <category term="SpringBoot" scheme="http://example.com/tags/SpringBoot/"/>
+    
+  </entry>
+  
+  <entry>
     <title>数据结构</title>
     <link href="http://example.com/2022/07/05/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     <id>http://example.com/2022/07/05/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</id>
     <published>2022-07-05T15:45:35.000Z</published>
-    <updated>2022-07-05T15:52:03.205Z</updated>
+    <updated>2022-07-07T15:50:11.450Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h1><h2 id="绪论"><a href="#绪论" class="headerlink" title="绪论"></a>绪论</h2><h3 id="数据结构在学什么？"><a href="#数据结构在学什么？" class="headerlink" title="数据结构在学什么？"></a>数据结构在学什么？</h3><ul><li>如何用程序代码把现实世界的问题信息化</li><li>如何用计算机高效地处理这些信息从而创造价值</li></ul><p><img src="D:\Blog\source\img\绪论.png" alt="绪论"></p><p><img src="D:\Blog\source\img\绪论(1).png"></p><hr><h3 id="数据结构基本概念"><a href="#数据结构基本概念" class="headerlink" title="数据结构基本概念"></a>数据结构基本概念</h3><h3 id=""><a href="#" class="headerlink" title=""></a><img src="D:\Blog\source\img\绪论(2).png"></h3><h4 id="数据"><a href="#数据" class="headerlink" title="数据"></a>数据</h4><p>​数据是<font color=red>信息的载体</font>，是描述客观事物属性的数、字符及所有能输入到计算机中并<font color=red>被计算机程序识别和处理（二进制0和1）</font>的符号的集合。数据是计算机程序加工的原料。</p><h4 id="数据元素、数据项"><a href="#数据元素、数据项" class="headerlink" title="数据元素、数据项"></a>数据元素、数据项</h4><p>​数据元素是数据的基本单位，通常作为一个整体进行考虑和处理。一个数据元素可由若干数据项组成，数据项是构成数据元素的不可分割的最小单位。</p><h4 id="数据对象"><a href="#数据对象" class="headerlink" title="数据对象"></a>数据对象</h4><p>​数据对象是具有相同性质的数据元素的集合，是数据的一个子集。</p><h4 id="数据结构-1"><a href="#数据结构-1" class="headerlink" title="数据结构"></a>数据结构</h4><p>​数据结构是相互之间存在一种或多种特定关系的数据元素的集合。</p><hr><h3 id="数据结构的三要素"><a href="#数据结构的三要素" class="headerlink" title="数据结构的三要素"></a>数据结构的三要素</h3><p><img src="/%E7%BB%AA%E8%AE%BA(3).png"></p><h4 id="逻辑结构"><a href="#逻辑结构" class="headerlink" title="逻辑结构"></a>逻辑结构</h4><p>​逻辑结构–数据元素之间的逻辑关系是什么？</p><p>集合结构：</p><p><img src="/%E9%80%BB%E8%BE%91%E7%BB%93%E6%9E%84(1).png"></p><p>线性结构：</p><p><img src="/%E9%80%BB%E8%BE%91%E7%BB%93%E6%9E%84(2).png"></p><p>树形结构：</p><p><img src="/%E9%80%BB%E8%BE%91%E7%BB%93%E6%9E%84(3).png"></p><p>图结构：</p><p><img src="/%E9%80%BB%E8%BE%91%E7%BB%93%E6%9E%84(4).png"></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h1><h2 id="绪论"><a href="#绪论" class="headerlink" title="绪论"></a>绪论</h2><h3 id="数据结构在学什么？"><a href="#数据结构在学什么？" class="headerlink" title="数据结构在学什么？"></a>数据结构在学什么？</h3><ul><li>如何用程序代码把现实世界的问题信息化</li><li>如何用计算机高效地处理这些信息从而创造价值</li></ul><p>!(<a href="https://res.cloudinary.com/qlyfdljh/image/upload/v1657208129/cld-sample-3.jpg">https://res.cloudinary.com/qlyfdljh/image/upload/v1657208129/cld-sample-3.jpg</a>)</p><p><img src="D:\Blog\source\img\绪论(1).png"></p><hr><h3 id="数据结构基本概念"><a href="#数据结构基本概念" class="headerlink" title="数据结构基本概念"></a>数据结构基本概念</h3><h3 id=""><a href="#" class="headerlink" title=""></a><img src="D:\Blog\source\img\绪论(2).png"></h3><h4 id="数据"><a href="#数据" class="headerlink" title="数据"></a>数据</h4><p>​数据是<font color=red>信息的载体</font>，是描述客观事物属性的数、字符及所有能输入到计算机中并<font color=red>被计算机程序识别和处理（二进制0和1）</font>的符号的集合。数据是计算机程序加工的原料。</p><h4 id="数据元素、数据项"><a href="#数据元素、数据项" class="headerlink" title="数据元素、数据项"></a>数据元素、数据项</h4><p>​数据元素是数据的基本单位，通常作为一个整体进行考虑和处理。一个数据元素可由若干数据项组成，数据项是构成数据元素的不可分割的最小单位。</p><h4 id="数据对象"><a href="#数据对象" class="headerlink" title="数据对象"></a>数据对象</h4><p>​数据对象是具有相同性质的数据元素的集合，是数据的一个子集。</p><h4 id="数据结构-1"><a href="#数据结构-1" class="headerlink" title="数据结构"></a>数据结构</h4><p>​数据结构是相互之间存在一种或多种特定关系的数据元素的集合。</p><hr><h3 id="数据结构的三要素"><a href="#数据结构的三要素" class="headerlink" title="数据结构的三要素"></a>数据结构的三要素</h3><p><img src="/%E7%BB%AA%E8%AE%BA(3).png"></p><h4 id="逻辑结构"><a href="#逻辑结构" class="headerlink" title="逻辑结构"></a>逻辑结构</h4><p>​逻辑结构–数据元素之间的逻辑关系是什么？</p><p>集合结构：</p><p><img src="/%E9%80%BB%E8%BE%91%E7%BB%93%E6%9E%84(1).png"></p><p>线性结构：</p><p><img src="/%E9%80%BB%E8%BE%91%E7%BB%93%E6%9E%84(2).png"></p><p>树形结构：</p><p><img src="/%E9%80%BB%E8%BE%91%E7%BB%93%E6%9E%84(3).png"></p><p>图结构：</p><p><img src="/%E9%80%BB%E8%BE%91%E7%BB%93%E6%9E%84(4).png"></p>]]></content>
     
     
       
