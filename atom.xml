@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-07-07T16:53:23.556Z</updated>
+  <updated>2022-07-08T04:35:27.685Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,22 +21,22 @@
     <link href="http://example.com/2022/07/08/SpringBoot/"/>
     <id>http://example.com/2022/07/08/SpringBoot/</id>
     <published>2022-07-07T16:52:45.000Z</published>
-    <updated>2022-07-07T16:53:23.556Z</updated>
+    <updated>2022-07-08T04:35:27.685Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="配置git环境与项目创建"><a href="#配置git环境与项目创建" class="headerlink" title="配置git环境与项目创建"></a>配置git环境与项目创建</h2><h3 id="配置git环境"><a href="#配置git环境" class="headerlink" title="配置git环境"></a>配置git环境</h3><ol><li>安装<code>Git Bash</code></li><li>进入家目录生成秘钥：执行命令<code>ssh-keygen</code></li></ol><p>仓库初始化</p><p>​在已经创建好得项目文件夹下鼠标右键<code>Git Bash Here</code>：执行命令<code>git init</code>，</p><p>执行完毕后文件夹下会出现隐藏<code>.git</code>文件，一般项目都会有<code>README</code>文件，执行命令<code>vim README.md</code></p><p><img src="https://res.cloudinary.com/qlyfdljh/image/upload/v1657212352/SpringBoot/gitconfig_1.png"></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="配置git环境与项目创建"><a href="#配置git环境与项目创建" class="headerlink" title="配置git环境与项目创建"></a>配置git环境与项目创建</h2><h3 id="项目设计"><a href="#项目设计" class="headerlink" title="项目设计"></a>项目设计</h3><ul><li><p>名称：<code>King Of Bots</code>,简称<code>KOB</code></p></li><li><p>图标：<img src="https://res.cloudinary.com/qlyfdljh/image/upload/v1657250296/SpringBoot/ProjectConfig/kob.png"></p></li><li><p>项目包含的模块</p><ul><li>PK模块：匹配界面（微服务）、实况直播界面（WebSocket协议）</li><li>对局列表模块：对局列表界面、对局录像界面</li><li>排行榜模块：Bot排行榜界面</li><li>用户中心模块：注册界面、登陆界面、我的Bot界面、每个Bot的详情界面</li></ul></li><li><p>前后端分离模式</p><ul><li><code>SpringBoot</code></li></ul></li></ul><h3 id="配置git环境"><a href="#配置git环境" class="headerlink" title="配置git环境"></a>配置git环境</h3><ol><li>安装<code>Git Bash</code></li><li>进入家目录生成秘钥：执行命令<code>ssh-keygen</code></li></ol><h3 id="仓库初始化"><a href="#仓库初始化" class="headerlink" title="仓库初始化"></a>仓库初始化</h3><p>​在已经创建好得项目文件夹下鼠标右键<code>Git Bash Here</code>：执行命令<code>git init</code>，执行完毕后文件夹下会出现隐藏<code>.git</code>文件，一般项目都会有<code>README</code>文件，执行命令<code>vim README.md</code></p><p><img src="https://res.cloudinary.com/qlyfdljh/image/upload/v1657212942/SpringBoot/gitconfig_1.png"></p><p><code>git status</code></p><p><code>git add .</code></p><p><code>git commit -m &quot;创建项目&quot;</code></p><h3 id="同步云端项目与本地项目"><a href="#同步云端项目与本地项目" class="headerlink" title="同步云端项目与本地项目"></a>同步云端项目与本地项目</h3><p>在Github上或其他代码托管平台上创建项目仓库</p><p>Git全局设置(如果本地有多个项目建议将下面命令中的global去掉)</p><ul><li><code>git config --global user.name &quot;用户名&quot;</code></li><li><code>git config --global user.email &quot;xxxxx@xxx.com&quot;</code></li></ul><p>将现有文件夹推送到云端</p><ul><li><code>git remote add origin git@github.com:wbsly/test.git</code></li><li><code>git push -u origin master</code></li></ul><p>刷新界面项目已经同步到云端</p><p><img src="https://res.cloudinary.com/qlyfdljh/image/upload/v1657249911/SpringBoot/ProjectConfig/gitconfig_2.png"></p><h3 id="创建项目后端"><a href="#创建项目后端" class="headerlink" title="创建项目后端"></a>创建项目后端</h3><p>打开IntelliJ IDEA创建项目</p><p><img src="https://res.cloudinary.com/qlyfdljh/image/upload/v1657251412/SpringBoot/ProjectConfig/springconfig_1.png"></p><p>如果一直加载失败连接超时报错</p><p><img src="https://res.cloudinary.com/qlyfdljh/image/upload/v1657251772/SpringBoot/ProjectConfig/springconfig_2.png"></p><p>将<code>https://start.spring.io/</code>换成<code>https://start.aliyun.com</code></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;配置git环境与项目创建&quot;&gt;&lt;a href=&quot;#配置git环境与项目创建&quot; class=&quot;headerlink&quot; title=&quot;配置git环境与项目创建&quot;&gt;&lt;/a&gt;配置git环境与项目创建&lt;/h2&gt;&lt;h3 id=&quot;配置git环境&quot;&gt;&lt;a href=&quot;#配置git环</summary>
+    <summary type="html">&lt;h2 id=&quot;配置git环境与项目创建&quot;&gt;&lt;a href=&quot;#配置git环境与项目创建&quot; class=&quot;headerlink&quot; title=&quot;配置git环境与项目创建&quot;&gt;&lt;/a&gt;配置git环境与项目创建&lt;/h2&gt;&lt;h3 id=&quot;项目设计&quot;&gt;&lt;a href=&quot;#项目设计&quot; cla</summary>
       
     
     
     
-    
-    <category term="Java" scheme="http://example.com/tags/Java/"/>
     
     <category term="SpringBoot" scheme="http://example.com/tags/SpringBoot/"/>
+    
+    <category term="Java" scheme="http://example.com/tags/Java/"/>
     
   </entry>
   
