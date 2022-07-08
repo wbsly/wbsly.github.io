@@ -7,8 +7,8 @@ http://example.com/2022/06/16/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8
 http://example.com/categories/index.html
 http://example.com/tags/index.html
 http://example.com/
+http://example.com/tags/%E6%9D%82%E4%B9%B1%E6%97%A0%E7%AB%A0%E7%9A%84%E9%85%8D%E7%BD%AE/
+http://example.com/tags/Java/
 http://example.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/
 http://example.com/tags/SpringBoot/
-http://example.com/tags/Java/
 http://example.com/tags/markdown/
-http://example.com/tags/%E6%9D%82%E4%B9%B1%E6%97%A0%E7%AB%A0%E7%9A%84%E9%85%8D%E7%BD%AE/
